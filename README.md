@@ -17,7 +17,7 @@ For the backend project please see [poc-seed-front-end](https://github.com/guils
     ```sh
     npm install
     ```
-3. Create an SQL Database follwing the guide [here](https://dev.mysql.com/doc/workbench/en/wb-getting-started-tutorial-create-connection.html).
+3. Create an SQL Database following the guide [here](https://dev.mysql.com/doc/workbench/en/wb-getting-started-tutorial-create-connection.html).
 
 4. Update the "connection.json" file with the information from the Database connection you created on step 3
     ```
