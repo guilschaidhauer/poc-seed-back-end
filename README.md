@@ -1,7 +1,7 @@
 # POC backend seed project using node.js
 Backend seed project based on Node.js. This project is meant to give you a head start in the development of simple or proof of concept projects.
 
-For the backend project please see [poc-seed-front-end](https://github.com/guilschaidhauer/poc-seed-front-end). 
+For the frontend project please see [poc-seed-front-end](https://github.com/guilschaidhauer/poc-seed-front-end). 
 
 ## Prerequisites
 - Node.js installed
