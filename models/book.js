@@ -39,18 +39,18 @@ class Book {
         })
     }
 
-    patch(id, valores, res) {
-        if(valores.data){
-            valores.data = moment(valores.data, 'DD/MM/YYYY').format('YYYY-MM-DD hh:mm:ss');
+    patch(id, values, res) {
+        if(values.data){
+            values.data = moment(values.data, 'DD/MM/YYYY').format('YYYY-MM-DD hh:mm:ss');
         }
 
         const sql = 'UPDATE books SET ? WHERE id=?';
 
-        connection.query(sql, [valores, id], (error, results) => {
+        connection.query(sql, [values, id], (error, results) => {
             if(error) {
                 res.status(400).json(error);
             } else {
-                res.status(200).json({...valores, id});
+                res.status(200).json({...values, id});
             }
         })
     }

@@ -21,6 +21,7 @@
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "dot-prop": ">=4.2.1"
   }
 }
