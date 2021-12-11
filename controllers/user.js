@@ -2,7 +2,7 @@ const User = require('../models/user')
 const JWTHelper = require('../utils/JWTHelper')
 
 module.exports = app => {
-    app.get('/users', (req, res, next) => {
+    app.get('/users', JWTHelper.verifyJWT, (req, res, next) => {
         User.list(res);
     })
 
